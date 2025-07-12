@@ -1,0 +1,11 @@
+flask
+flask-cors
+transformers==4.48.3
+optimum[openvino]==1.22.0
+pytesseract
+Pillow
+SpeechRecognition
+numpy
+torch       # Needed for ONNX export or model conversion
+onnx        # If you plan to convert models to ONNX
+protobuf    # Required by Hugging Face models for tokenizer/config loading
